@@ -6,6 +6,7 @@ public class DataTypes {
         String Fname = "sujal ";
         String Lname = "Shrestha";
         String Fullname = Fname + Lname;
+        float num = 22.22f;
         final int mainAge = 20;
         char initialName = 's';
         // One Value to Multiple Variables
@@ -19,6 +20,7 @@ public class DataTypes {
         System.out.println(Fname + Lname);
         System.out.println(Fullname);
         System.out.println(x);
+        System.out.println(num);
 
     }
 
