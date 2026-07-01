@@ -8,14 +8,18 @@ public class DataTypes {
         String Fullname = Fname + Lname;
         final int mainAge = 20;
         char initialName = 's';
+        // One Value to Multiple Variables
+        int x, y, z;
+        x = y = z = 50;
 
-        
         System.out.println(age);
         System.out.println(status);
         System.out.println(mainAge);
         System.out.println(initialName);
         System.out.println(Fname + Lname);
         System.out.println(Fullname);
+        System.out.println(x);
+
     }
 
 }
