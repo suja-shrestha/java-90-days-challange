@@ -13,6 +13,13 @@ public class DataTypes {
         int x, y, z;
         x = y = z = 50;
 
+        // var uses
+        var myNum = 5; // int
+        var myDouble = 9.98; // double
+        var myChar = 'D'; // char
+        var myBoolean = true; // boolean
+        var myString = "Hello"; // String
+
         System.out.println(age);
         System.out.println(status);
         System.out.println(mainAge);
@@ -21,6 +28,11 @@ public class DataTypes {
         System.out.println(Fullname);
         System.out.println(x);
         System.out.println(num);
+        System.out.println(myNum);
+        System.out.println(myDouble);
+        System.out.println(myChar);
+        System.out.println(myBoolean);
+        System.out.println(myString);
 
     }
 
